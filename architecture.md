@@ -77,13 +77,4 @@
 
 
                                 ROAD RASH-STYLE GAME ARCHITECTURE
-┌─────────────────────────────────────────────────────────────────────────────────────┐
-|  
-
-|
-
-|
-
-|
-
-|
+![image](https://github.com/user-attachments/assets/38b54591-ed44-4692-9694-bf963ebc224d)
