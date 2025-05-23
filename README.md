@@ -1,6 +1,9 @@
 # Road Rash Style Game
 
 A simple 2D Road Rash-style bike racing game built with Python and Pygame.
+![image](https://github.com/user-attachments/assets/1e252ce6-5253-49f7-9c36-6ba3d08d3a44)
+<img width="1470" alt="Screenshot 2025-05-22 at 6 55 32 PM" src="https://github.com/user-attachments/assets/8d7188b3-fc9b-43ae-b4dc-1622b1a4b54d" />
+
 
 ## Features
 
