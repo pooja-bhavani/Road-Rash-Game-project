@@ -81,7 +81,8 @@
 │                                                                                     │
 │  ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────────────────┐    │
 │  │  Game Engine    │     │  Input System   │     │      Rendering Engine       │    │
-│  │                 │     │                 │     │                             │    │
+│  │                
+│                     │                             │    │
 │  │ - Game Loop     │◄───►│ - Keyboard      │     │ - Graphics Pipeline         │    │
 │  │ - Physics       │     │ - Controller    │     │ - Texture Management        │    │
 │  │ - Collision     │     │ - Touch (Mobile)│     │ - Animation System          │    │
