@@ -6,14 +6,17 @@
    • Physics simulation for motorcycle handling
    • Collision detection for crashes and combat
 
+
 2. Input System
    • Handles keyboard/controller input
    • Maps inputs to game actions (accelerate, brake, punch, kick)
+
 
 3. Rendering Engine
    • Graphics pipeline for rendering the game world
    • Texture and model management
    • Animation system for characters and motorcycles
+
 
 4. Game Objects
    • Player character and motorcycle
@@ -21,29 +24,35 @@
    • Environment objects (roads, obstacles, scenery)
    • Weapons and power-ups
 
+
 5. Game State Manager
    • Tracks player progress through races
    • Manages score, money, and statistics
    • Handles game progression logic
+
 
 6. AI System
    • Controls opponent racers' behavior
    • Traffic AI for non-racing vehicles
    • Police AI for chase sequences
 
+
 7. Audio System
    • Engine sounds and environmental audio
    • Combat sound effects
    • Background music
 
+
 8. Resource Manager
    • Loads and unloads game assets
    • Manages memory usage
+
 
 9. User Interface
    • Heads-up display during races
    • Menus for bike selection, track selection
    • Score and status displays
+
 
 10. Save/Load System
     • Stores player progress
