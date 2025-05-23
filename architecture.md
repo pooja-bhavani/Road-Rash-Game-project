@@ -59,15 +59,19 @@
 
 15. Resource Manager
    • Loads and unloads game assets
+
    • Manages memory usage
 
 
-16. User Interface
+17. User Interface
    • Heads-up display during races
+
    • Menus for bike selection, track selection
+
    • Score and status displays
 
 
-17. Save/Load System
+18. Save/Load System
     • Stores player progress
+    
     • Saves unlocked motorcycles, tracks, and achievements
