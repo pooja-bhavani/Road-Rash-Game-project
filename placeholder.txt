@@ -1,0 +1,2 @@
+This directory will store game assets downloaded from S3.
+If S3 download fails, the game will use default generated assets.
