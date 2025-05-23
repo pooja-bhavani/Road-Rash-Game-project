@@ -74,3 +74,43 @@
     • Stores player progress
     
     • Saves unlocked motorcycles, tracks, and achievements
+
+
+                                ROAD RASH-STYLE GAME ARCHITECTURE
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                     │
+│  ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────────────────┐    │
+│  │  Game Engine    │     │  Input System   │     │      Rendering Engine       │    │
+│  │                 │     │                 │     │                             │    │
+│  │ - Game Loop     │◄───►│ - Keyboard      │     │ - Graphics Pipeline         │    │
+│  │ - Physics       │     │ - Controller    │     │ - Texture Management        │    │
+│  │ - Collision     │     │ - Touch (Mobile)│     │ - Animation System          │    │
+│  └────────┬────────┘     └─────────────────┘     └─────────────┬───────────────┘    │
+│           │                        ▲                            │                   │
+│           ▼                        │                            ▼                   │
+│  ┌─────────────────┐     ┌─────────┴─────────┐     ┌─────────────────────────────┐  │
+│  │  Game Objects   │     │                   │     │      Audio System           │  │
+│  │                 │     │   Game State      │     │                             │  │
+│  │ - Player        │◄───►│   Manager         │◄───►│ - Sound Effects             │  │
+│  │ - Opponents     │     │                   │     │ - Music                     │  │
+│  │ - Environment   │     │ - Level Progress  │     │ - Environmental Audio       │  │
+│  │ - Weapons       │     │ - Score/Stats     │     │                             │  │
+│  └────────┬────────┘     └─────────────────┬─┘     └─────────────────────────────┘  │
+│           │                                │                                        │
+│           ▼                                ▼                                        │
+│  ┌─────────────────┐     ┌─────────────────────────┐     ┌─────────────────────┐   │
+│  │  AI System      │     │                         │     │  User Interface     │   │
+│  │                 │     │   Resource Manager      │     │                     │   │
+│  │ - Opponent AI   │     │                         │     │ - HUD               │   │
+│  │ - Traffic AI    │     │ - Asset Loading         │     │ - Menus             │   │
+│  │ - Police AI     │     │ - Memory Management     │     │ - Score Display     │   │
+│  └─────────────────┘     └─────────────────────────┘     └─────────────────────┘   │
+│                                                                                     │
+│  ┌─────────────────────────────────────────────────────────────────────────────┐   │
+│  │                           Save/Load System                                  │   │
+│  │                                                                             │   │
+│  │  - Player Progress        - Unlocked Bikes        - Unlocked Tracks         │   │
+│  └─────────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                     │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
